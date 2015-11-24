@@ -1,0 +1,269 @@
+.social-btn-page i {
+    padding: 20px 15px;
+    color: #39b54a;
+}
+.hide {
+    display: none;
+    cursor: pointer;
+}
+.open img {
+    float: right;
+    cursor: pointer;
+}
+.overlay-big p {
+    text-align: right;
+    padding: 20px;
+}
+.overlay-big {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.72);
+    position: fixed;
+    z-index: 1000;
+}
+.overlay-big a {
+    color: black;
+}
+.overlay-big .section {
+    padding-top: 30px;
+    height: 12%;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+.overlay-big .section:hover {
+    background-color: rgba(57, 181, 74, 0.72);
+    color: white;
+}
+.active-menu {
+    background-color: rgba(57, 181, 74, 0.72);
+    color: white;
+}
+.countries-id {
+    text-align: center;
+}
+.countries-id h4 {
+    font-weight: 800;
+    color: #39b54a;
+}
+li.active {
+    font-weight: 800;
+}
+.header-top-bar .social-btn {
+    text-align: right;
+}
+.header-top-bar .social-btn i {
+    padding: 0 30px 0 0;
+    color: #39b54a;
+}
+.story-link p {
+    color: #39b54a;
+    font-size: 0.9em;
+    font-weight: 800;
+}
+.story-block img {
+    -o-transition: opacity 0.4s;
+    -moz-transition: opacity 0.4s;
+    -webkit-transition: opacity 0.4s;
+    transition: opacity 0.4s;
+}
+.story-block:hover > img {
+    -o-opacity: 0.4;
+    -moz-opacity: 0.4;
+    -webkit-opacity: 0.4;
+    opacity: 0.4;
+}
+.story-block:hover > p {
+    text-decoration: underline;
+}
+.header-top-bar {
+    padding-top: 15px;
+    width: 100%;
+    background-color: white;
+    height: 50px;
+    border-bottom: 1px #39b54a solid
+}
+.menubar {
+    margin-top: -50px;
+}
+.title-block {
+    text-align: center;
+}
+.title-block hr {
+    border: solid 2px #39b54a;
+}
+.title-block h4 {
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 1.32em
+}
+.title-block img {
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+/*--------------------     MEDIA QUERIES     ------------------------*/
+
+// Small screens
+@media only screen {}
+
+/* Define mobile styles */
+
+@media only screen and (max-width: 40em) {
+    div.title-block h4 {
+        font-weight: 300;
+        text-transform: uppercase;
+        letter-spacing: 0.3em
+    }
+    .tabs .tab-title > a {
+        width: 45px;
+        height: 45px;
+        margin: 0px;
+        padding: -10px;
+    }
+    .tabs .tab-title > a img {
+        width: 20px;
+    }
+    .quote {
+        background-image: url(../images/quote_small.jpg);
+        background-repeat: no-repeat;
+        font-size: 19px;
+        padding: 0 10px 0 50px;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 900;
+    }
+}
+
+/* max-width 640px, mobile-only styles, use when QAing mobile issues */
+
+// Medium screens
+@media only screen and (min-width: 40.063em) {
+    div.bg-burning {
+        background-image: url();
+        width: 100%;
+        height: 200px;
+        margin-bottom: 64px;
+    }
+}
+
+/* min-width 641px, medium screens */
+
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {}
+
+/* min-width 641px and max-width 1024px, use when QAing tablet-only issues */
+
+// Large screens
+@media only screen and (min-width: 64.063em) {}
+
+/* min-width 1025px, large screens */
+
+@media only screen and (min-width: 64.063em) and (max-width: 90em) {}
+
+/* min-width 1025px and max-width 1440px, use when QAing large screen-only issues */
+
+// XLarge screens
+@media only screen and (min-width: 90.063em) {}
+
+/* min-width 1441px, xlarge screens */
+
+@media only screen and (min-width: 90.063em) and (max-width: 120em) {}
+
+/* min-width 1441px and max-width 1920px, use when QAing xlarge screen-only issues */
+
+// XXLarge screens
+@media only screen and (min-width: 120.063em) {}
+
+/* min-width 1921px, xxlarge screens */
+
+
+/* ---- END   --------------------     MEDIA QUERIES     ------------------------*/
+
+
+/*------------------TYPOGRAPHY-----------*/
+
+.intro-names {
+    margin-top: 30px;
+}
+.names p {
+    font-size: 1em;
+    margin: -5px;
+}
+.names p b {
+    font-size: 1.3em;
+}
+.firstcharacter {
+    float: left;
+    color: #39b54a;
+    font-size: 120px;
+    line-height: 80px;
+    padding-top: 15px;
+    padding-right: 8px;
+    padding-left: 3px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700
+}
+.tabs-content h3 {
+    margin: 50px 0 31px 0;
+    text-align: center;
+    font-size: 1em;
+    font-weight: 800;
+    color: #39b54a;
+    text-transform: uppercase;
+    letter-spacing: 0.5em;
+}
+.tabs-content p i {
+    font-size: 13px;
+    color: #212121
+}
+.tabs-content .content p {
+    font-size: 0.9em;
+    color: #000000;
+}
+.yellow {
+    color: #39b54a
+}
+.quote {
+    background-image: url(../images/quote.jpg);
+    background-repeat: no-repeat;
+    font-size: 23px;
+    padding: 0 30px 0 100px
+}
+.title-chapter-page h3 small {
+    border: solid #a5a5a5 1px;
+    padding: 7px 10px 7px 10px;
+    border-radius: 23px;
+}
+
+/*------------------TYPOGRAPHY-----------*/
+
+.tabs a:focus {
+    outline: 0;
+}
+.tabs a img {
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    margin: 50%
+}
+footer {
+    background-color: #212121;
+    padding: 35px 0 35px 0;
+    margin-top: 120px;
+}
+footer hr {
+    border-color: #fff
+}
+footer h6 {
+    color: #39b54a;
+    text-align: center
+}
+footer p {
+    color: #bebebe;
+    text-align: center;
+    font-size: 14px;
+}
+.fa-facebook {
+    padding: 0 3px;
+}
