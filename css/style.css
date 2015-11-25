@@ -92,10 +92,16 @@ li.active {
 .title-block hr {
     border: solid 2px #39b54a;
 }
-.title-block h4 {
+.title-block h4,
+h6 {
     font-weight: 300;
     text-transform: uppercase;
     letter-spacing: 1.32em
+}
+.title-block h6 {
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 0.8em
 }
 .title-block img {
     margin-top: 100px;
